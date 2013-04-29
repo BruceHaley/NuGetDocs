@@ -368,9 +368,10 @@ attribute and `target` attribute respectively.
     <tr>
         <td>src</td>
         <td>
-            The location of the file or files to include. The path is relative to the NuSpec file 
-            unless an absolute path is specified. The wildcard character, *,  is allowed. Using a double 
-            wildcard, **, implies a recursive directory search.
+            The location of the file or files to include. The path is relative to the NuSpec file, or   
+            relative to "-BasePath" if specified in the NuGet.exe command line, unless an absolute path 
+            is specified. The wildcard character, *, is allowed. Using a double wildcard, **, implies 
+            a recursive directory search.
         </td>
     </tr>
     <tr>
